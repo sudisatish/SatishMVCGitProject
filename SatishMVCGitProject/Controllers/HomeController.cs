@@ -16,6 +16,7 @@ namespace SatishMVCGitProject.Controllers
 
             ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
             ViewData["Runtime"] = isMono ? "Mono" : ".NET";
+            ViewData["Author"] = Environment.UserName;
 
             return View();
         }
