@@ -19,6 +19,7 @@ namespace SatishMVCGitProject.Controllers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ViewData["Author"] = Environment.UserName;
 
 =======
@@ -30,6 +31,9 @@ namespace SatishMVCGitProject.Controllers
 =======
             ViewData["Author"] = Environment.UserDomainName + "/" + Environment.UserName;
 >>>>>>> aaedfbc... Revert "Revert "Added author to view data""
+=======
+
+>>>>>>> 7a06b78... Revert "Revert "Revert "Added author to view data"""
             return View();
         }
     }
