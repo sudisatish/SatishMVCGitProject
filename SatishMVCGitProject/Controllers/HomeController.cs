@@ -18,6 +18,7 @@ namespace SatishMVCGitProject.Controllers
             ViewData["Runtime"] = isMono ? "Mono" : ".NET";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ViewData["Author"] = Environment.UserName;
 
 =======
@@ -26,6 +27,9 @@ namespace SatishMVCGitProject.Controllers
 =======
 
 >>>>>>> 44ec2de... Revert "Added author to view data"
+=======
+            ViewData["Author"] = Environment.UserDomainName + "/" + Environment.UserName;
+>>>>>>> aaedfbc... Revert "Revert "Added author to view data""
             return View();
         }
     }
