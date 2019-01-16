@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatishMVCGitProject", "SatishMVCGitProject\SatishMVCGitProject.csproj", "{1A4BFCC3-B3FC-436A-8931-49C7C09F8DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatishMVCGitProject.Tests", "SatishMVCGitProject.Tests\SatishMVCGitProject.Tests.csproj", "{9ED04FBF-7DAC-4FCB-8E74-C48D6639F592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A4BFCC3-B3FC-436A-8931-49C7C09F8DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4BFCC3-B3FC-436A-8931-49C7C09F8DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4BFCC3-B3FC-436A-8931-49C7C09F8DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4BFCC3-B3FC-436A-8931-49C7C09F8DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED04FBF-7DAC-4FCB-8E74-C48D6639F592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED04FBF-7DAC-4FCB-8E74-C48D6639F592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED04FBF-7DAC-4FCB-8E74-C48D6639F592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED04FBF-7DAC-4FCB-8E74-C48D6639F592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
