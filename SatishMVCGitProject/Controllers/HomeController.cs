@@ -17,11 +17,15 @@ namespace SatishMVCGitProject.Controllers
             ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
             ViewData["Runtime"] = isMono ? "Mono" : ".NET";
 <<<<<<< HEAD
+<<<<<<< HEAD
             ViewData["Author"] = Environment.UserName;
 
 =======
             ViewData["Author"] = Environment.UserDomainName + "/" + Environment.UserName;
 >>>>>>> 3f5737d... Added author to view data
+=======
+
+>>>>>>> 44ec2de... Revert "Added author to view data"
             return View();
         }
     }
